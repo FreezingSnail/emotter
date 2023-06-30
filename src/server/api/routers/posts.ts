@@ -1,4 +1,4 @@
-import type { User } from "@clerk/nextjs/dist/api";
+import type { User } from "@clerk/nextjs/dist/types/api";
 import { clerkClient } from "@clerk/nextjs";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
